@@ -1,0 +1,30 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "4.22",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "FPSGame",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine",
+				"ApexDestruction"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ApexDestruction",
+			"Enabled": true
+		},
+		{
+			"Name": "PhysXVehicles",
+			"Enabled": false
+		}
+	],
+	"TargetPlatforms": [
+		"WindowsNoEditor"
+	]
+}
